@@ -149,7 +149,7 @@ strong {
 header {
     min-height: 150px;
     text-align: center;
-    background-image: linear-gradient( #54ff9e,#78e9a9, #00ff6e);
+    background-image: linear-gradient( #44ff95,#78e9a9, #00ff6e);
     border-radius: 7.5px;
     padding-top: 40px;
     box-shadow: 0px 2px 20px #00000080;
@@ -175,17 +175,18 @@ nav {
     box-shadow: 0px 2px 20px #00000080;
 }
 nav > a {
-    border-radius: 5px;
+
     padding: 10px;
     font-weight: 900;
     color:var(--color3);
     text-decoration: none;
-    transition-duration: 1s;
+    transition: 0.5s ease-out;    
     font-size:1.25em
 }
 nav > a:hover {
-    background-color: #1fee8750;
+    background-color: #9bf8c2;
     color: var(--color2);
+    border-radius: 20px;  
 }
 main {
     min-width: auto;
